@@ -5,10 +5,9 @@ A port of the default theme from Jetbrains' Fleet IDE for Neovim with Treesitter
 ![Screenshot](https://user-images.githubusercontent.com/17355488/235284483-77920361-b1b7-4c12-8b1a-d81952aeb947.png)
 
 Includes support for:
+
 - Tree-sitter
 - LSP semantic highlighting
-- [HiPhish/nvim-ts-rainbow2](https://github.com/HiPhish/nvim-ts-rainbow2)
-- [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 
 ## Installation
 
@@ -26,4 +25,5 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 Colors were initially taken from the [Helix editor](https://github.com/helix-editor/helix)'s builtin [fleet dark theme](https://github.com/helix-editor/helix/blob/b0ceac608ebc117399af89b81fbd0837d370161d/runtime/themes/fleet_dark.toml).
 
 ## License
+
 [MIT](./LICENSE)
