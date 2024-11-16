@@ -7,7 +7,7 @@ function M.setup()
 	local groups = {
 		Normal = { bg = palette.background, fg = palette.light }, -- normal text
 		Comment = { fg = palette.light_gray }, -- any comment
-		-- ColorColumn  = { }, -- used for the columns set with 'colorcolumn'
+		ColorColumn = { bg = palette.darker }, -- used for the columns set with 'colorcolumn'
 		-- Conceal      = { }, -- placeholder characters substituted for concealed text (see 'conceallevel')
 		Cursor = { bg = palette.light, fg = palette.dark_gray }, -- character under the cursor
 		-- lCursor      = { }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
